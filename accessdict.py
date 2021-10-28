@@ -1,0 +1,15 @@
+a={"name":"pp","age":25,"Hobbies":"chatting","frds":["sam","pk","rajesh"]}
+print(a)
+#print(a["frds"])
+b=a["age"]
+print(b)
+b=a.get("name")
+print(b)
+b=a.keys()
+print(b)
+a["bike"]="fz"
+print(a)
+b=a.values()
+print(b)
+a["car"]="Altroz"
+print(b)
